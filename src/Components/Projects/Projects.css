@@ -157,6 +157,8 @@ width: 80%;
 @media screen and (max-width: 470px) {
     .project-name{
         font-size: 18px;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     .projectContainer{
         width:90%;

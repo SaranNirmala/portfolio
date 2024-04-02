@@ -202,8 +202,57 @@
         flex-direction: column-reverse;
         background-color: transparent;
         height: 100vh;
+        margin-right: 5%;
+        margin-left: 5%;
     }
  
+    .contactform{
+        height: 50%;
+        width: 100%;
+        /* margin: 20px; */
+       
+    }
+    .contactInfo{
+        height: 50%;
+        width: 100%;       
+    }
+    .formContainer input {
+        height:45px ;
+        width: 75%;
+        border-bottom: 4px solid #122A56;
+        border-left: 0px solid #122A56;
+        border-right: 0px solid #122A56;
+    }
+    .box{
+        height: 40px;
+        width: 300px;
+        margin: 20px;
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 12px;
+        width: 100px;
+        padding: 13px 27px;
+    } 
+    .contact-name{
+        font-size: 18px;
+    }
+    .imag{
+        height: 35px;
+        width: 35px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .contactContainer{
+        flex-direction: column-reverse;
+        background-color: transparent;
+        height: 100vh;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
     .contactform{
         height: 50%;
         width: 100%;

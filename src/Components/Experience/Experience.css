@@ -113,3 +113,18 @@
         font-size: 18px;
     }
 }
+
+
+
+@media screen and (max-width: 470px) {
+    .experienceContainer{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .dropBtn{
+       font-size: 12px;
+    }
+    .exp-name{
+        font-size: 18px;
+    }
+}
