@@ -1,0 +1,263 @@
+.container{
+    position:relative;
+    background-color: rgba(12,12,12,0.6);
+    border-radius: 15px;
+    padding: 63px;
+    margin-top: 10px;
+    height: 88vh;
+    z-index: 1;
+    margin-right: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+}
+
+.aboutItem{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    color: white;
+    background-image: linear-gradient(90deg, rgba(165,215, 232, 0.42)0% , rgba(255,255,255,0)100%);
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    background-size: 0 100%;
+}
+
+.aboutItem:hover{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+.aboutTitle{
+    margin-bottom: 20px;
+}
+
+.certificate{
+    margin-top: 50px;
+    padding: 15px;
+    background-color:#122A56;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.aboutBtn{
+    background-color: rgb(4, 11, 20);
+    color:white;
+    border-radius: 100px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 17px 26px;
+    margin-top: 50px;
+    width: 200px;
+ }
+
+
+.aboutBtn:hover{
+    background-color:#5F73B0;
+    transition: 0.5s;
+}
+
+.workImage{
+    height: 500px;
+    width: 500px;
+}
+
+@media screen and (max-width: 1127px) {
+    .container{
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .title{
+        /* padding-left: 250px; */
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container{
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .container{
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        height: 300px;
+        width: 300px;
+    }
+    .aboutBtn{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 15px 20px;
+    margin-top: 50px;
+    width: 200px;
+    }
+    .certificate{
+        margin-top: 50px;
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .container{
+        justify-content: space-around;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        height: 300px;
+        width: 300px;
+    }
+    .aboutBtn{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 12px;
+    margin-top: 20px;
+    width: 150px;
+    }
+    .certificate{
+        margin-top: 20px;
+        padding: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .container{
+        background-color: transparent;
+        justify-content: space-around;
+        flex-direction: column;
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 10px;
+        height: 88vh;
+        z-index: 1;
+        margin-right: 10%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        margin-top: -35px;
+        height: 300px;
+        width: 300px;
+    }
+    .aboutBtn{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 12px;
+    margin-top: 10px;
+    width: 150px;
+    }
+    .certificate{
+        margin-top: 20px;
+        padding: 13px;
+    }
+    .aboutItem{
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        color: white;
+        background-image: linear-gradient(90deg, rgba(165,215, 232, 0.42)0% , rgba(255,255,255,0)100%);
+        border-radius: 20px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        background-size: 0 100%;
+        margin-top: -10px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        padding: 20px;
+        margin-top: 10px;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        margin-top: -35px;
+        height: 270px;
+        width: 270px;
+    }
+    .aboutBtn{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 12px;
+    margin-top: 10px;
+    width: 120px;
+    }
+    .certificate{
+        margin-top: 20px;
+        padding: 13px;
+    }
+    .aboutItem{
+        border-radius: 20px;
+        padding: 20px;
+        margin-top: -20px;
+    }
+    
+}
+
+@media screen and (max-width: 470px) {
+    .container{
+        margin-top: 10px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .title{
+        padding-left: 250px;
+    }
+    .workImage{
+        margin-top: -50px;
+        height: 270px;
+        width: 270px;
+    }
+    .aboutBtn{
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 12px;
+    margin-top: 10px;
+    width: 120px;
+    }
+    .certificate{
+        margin-top: 20px;
+        padding: 13px;
+    }
+    .aboutItem{
+        padding: 20px;
+        margin-top: -20px;
+    }
+    
+}

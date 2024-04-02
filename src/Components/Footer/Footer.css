@@ -1,0 +1,13 @@
+.foot-con{
+    position:relative;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+    height: 5vh;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}

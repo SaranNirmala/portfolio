@@ -1,0 +1,244 @@
+.contactContainer{
+    height: 80vh;
+    width: 79vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: rgba(12,12,12,0.6);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.contactform{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    color: white;
+}
+
+.contactInfo{
+    height: 80%;
+    width: 50%;
+    /* border: 1px solid white; */
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+   
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+}
+
+.formContainer input {
+    height:45px ;
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 8px;
+    border-left: 5px solid #122A56;
+    border-right: 5px solid #122A56;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 330px;
+    margin: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.imag{
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.Links{
+    padding: 20px;
+}
+.btn{
+    background-color: rgb(4, 11, 20);
+    color:white;
+    border-radius: 100px;
+    border: 1px solid;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 15px 20px;
+    width: 200px;
+}   
+
+.btn:hover{
+    background-color:rgb(4,21,45);
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 930px) {
+ 
+    /* .contactform{
+        height: 100%;
+        width: 50%;
+        color: white;
+    }
+    .contactInfo{
+        height: 80%;
+        width: 50%;       
+    } */
+    .formContainer input {
+        height:45px ;
+        width: 75%;
+        border-left: 4px solid #122A56;
+        border-right: 4px solid #122A56;
+    }
+    .box{
+        
+        height: 40px;
+        width: 300px;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 17px;
+        /* font-weight: 300; */
+        /* padding: 15px 20px; */
+        width: 150px;
+    } 
+}
+
+
+@media screen and (max-width: 860px) {
+    .contactContainer{
+        flex-direction: column-reverse;
+        background-color: transparent;
+        height: 100vh;
+    }
+ 
+    .contactform{
+        height: 50%;
+        width: 100%;
+        /* margin: 20px; */
+       
+    }
+    .contactInfo{
+        height: 50%;
+        width: 100%;       
+    }
+    .formContainer input {
+        height:45px ;
+        width: 75%;
+        border-bottom: 4px solid #122A56;
+        border-left: 0px solid #122A56;
+        border-right: 0px solid #122A56;
+    }
+    .box{
+        height: 40px;
+        width: 340px;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 18px;
+        width: 150px;
+    } 
+    .contact-name{
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactContainer{
+        flex-direction: column-reverse;
+        background-color: transparent;
+        height: 100vh;
+    }
+ 
+    .contactform{
+        height: 50%;
+        width: 100%;
+        /* margin: 20px; */
+       
+    }
+    .contactInfo{
+        height: 50%;
+        width: 100%;       
+    }
+    .formContainer input {
+        height:45px ;
+        width: 75%;
+        border-bottom: 4px solid #122A56;
+        border-left: 0px solid #122A56;
+        border-right: 0px solid #122A56;
+    }
+    .box{
+        height: 40px;
+        width: 300px;
+        margin: 20px;
+    }
+    .btn{
+        font-size: 13px;
+        width: 120px;
+    } 
+    .contact-name{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contactContainer{
+        flex-direction: column-reverse;
+        background-color: transparent;
+        height: 100vh;
+    }
+ 
+    .contactform{
+        height: 50%;
+        width: 100%;
+        /* margin: 20px; */
+       
+    }
+    .contactInfo{
+        height: 50%;
+        width: 100%;       
+    }
+    .formContainer input {
+        height:45px ;
+        width: 75%;
+        border-bottom: 4px solid #122A56;
+        border-left: 0px solid #122A56;
+        border-right: 0px solid #122A56;
+    }
+    .box{
+        height: 40px;
+        width: 300px;
+        margin: 20px;
+        font-size: 14px;
+    }
+    .btn{
+        font-size: 12px;
+        width: 100px;
+        padding: 13px 27px;
+    } 
+    .contact-name{
+        font-size: 18px;
+    }
+    .imag{
+        height: 35px;
+        width: 35px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+}

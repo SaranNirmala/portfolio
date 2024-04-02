@@ -1,0 +1,23 @@
+.certificateContainer{
+    height:100% ;
+    width:100%;
+    background-color:rgb(14,36,74);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.imageBox{
+    height: 500px;
+    width: 950px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:10px;
+   border: 1px none;
+   border-radius: 8px;
+   /* box-shadow: 5px 2px 5px 12px rgb(41, 41, 224); */
+   box-shadow: #5b21b6 0px 2px 4px 0px, #5b21b6 0px 2px 16px 0px;
+   margin: 10px;
+}
