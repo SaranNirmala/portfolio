@@ -20,7 +20,7 @@ const About = () => {
             <h4 className={styles.aboutTitle}>About Me</h4>
             <p className={styles.aboutContent}>Enthusiastic and skilled in Full Stack (MERN), I have completed a certification course. Eager to apply my knowledge and bring a dynamic approach to projects. Committed to learning, delivering impact solutions, creativity and contributing my skills to a collaborative team environment. Ready to embark on a journey of growth.</p></li>
             <div className={styles.certificate}>Got Certified in FSD(MERN)-GUVI(IITM)</div>
-            <button className={styles.aboutBtn}><Link to='/certificate' target="blank"  style={{ textDecoration: "none", color: "white" }}>Certificates</Link><span></span><span></span><span></span><span></span></button>
+            <button className={styles.aboutBtn}><Link to='/certificate' target="_blank"  style={{ textDecoration: "none", color: "white" }}>Certificates</Link><span></span><span></span><span></span><span></span></button>
         </ul> 
         
            

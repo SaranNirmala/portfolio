@@ -7,11 +7,12 @@ import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
 import Home from "./Home"
 
+import '../../index.css'
 
 
 const Pages = () => {
     return(
-        <div>
+        <div  className="pageContainer">
              <Navbar />
             <Home />
             <About />
