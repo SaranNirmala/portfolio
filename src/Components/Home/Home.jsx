@@ -18,7 +18,7 @@ const Home = () => {
         </p>
         <button className={styles.aboutBtn}>
           <Link
-            to="https://docs.google.com/document/d/1IktMyvzC5FLlKzh6ACCNIkjbnH5UL2JJ/edit?usp=drive_link&ouid=116560687113400849791&rtpof=true&sd=true"
+            to="https://drive.google.com/file/d/1jejkfttpzY24MoBPGOy9V8C_-hSm8W8o/view?usp=sharing"
             target="blank"
             style={{ textDecoration: "none", color: "white" }}
           >

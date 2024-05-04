@@ -5,6 +5,7 @@ import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
 import { Link } from "react-router-dom";
+import dp from './family.jpg'
 
 const About = () => {
     return(
@@ -12,6 +13,7 @@ const About = () => {
         <div className={styles.aboutItems}>
          {/* <h2 className={styles.title}>About</h2> */}
          <div className={styles.content}><img src={getImageUrl('about/aboutImage.png')} alt="MyWork" className={styles.workImage}/></div>
+         {/* <div className={styles.content}><img src={dp} alt="MyWork" className={styles.workImage}/></div> */}
          </div>
         <ul className={styles.aboutItem}>
            <li> 
